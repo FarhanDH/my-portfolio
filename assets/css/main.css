@@ -244,7 +244,7 @@
 
 /* *=========== RESPONSIVE FOR LARGE THAN 575PX SCREEN ===========* */
 
-@media (min-width: 575px) {
+@media (min-width: 300px) {
     /* ?============= CLIENT, ABOUT & SKILLS =============?*/
 
     .slider .slider-item {
@@ -255,6 +255,7 @@
     .about-banner,
     .skill-banner {
         max-width: max-content;
+        margin-top: 60px;
         margin-inline: auto;
     }
 

@@ -1,352 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, 
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, 
     initial-scale=1.0"
-    />
+        />
 
-    <!--?========== PRIMARY META TAGS ===========?-->
+        <!--?========== PRIMARY META TAGS ===========?-->
 
-    <title>Alpha97 | Services</title>
-    <meta name="title" content="Alpha97 - Web Developer from KHI, PK" />
-    <meta
-      name="description"
-      content="This is a personal portfolio html template made by Muhammad Usama AKA Alpha97"
-    />
+        <title>Farhan | Certification</title>
+        <meta name="title" content="My Portfolio" />
+        <meta
+            name="description"
+            content="This is a personal portfolio Farhan Dwi Hartanto"
+        />
 
-    <!--?========== FAVICON ===========?-->
+        <!--?========== FAVICON ===========?-->
 
-    <link rel="shortcut icon" href="./ficon.png" type="image/x-icon" />
+        <link rel="icon" href="./favicon.png" type="image/x-icon" />
 
-    <!--?========== GOOGLE FONTS ===========?-->
+        <!--?========== GOOGLE FONTS ===========?-->
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
 
-    <!--?========== CUSTOM CSS ===========?-->
+        <!--?========== CUSTOM CSS ===========?-->
 
-    <link rel="stylesheet" href="./assets/css/require.css" />
-    <link rel="stylesheet" href="./assets/css/pages/certification.css" />
+        <link rel="stylesheet" href="./assets/css/require.css" />
+        <link rel="stylesheet" href="./assets/css/pages/certification.css" />
 
-    <style>
-      .arrow {
-        display: flex;
+        <style>
+            .arrow {
+                display: flex;
+                position: absolute;
+                bottom: 2rem;
+                right: 1.5rem;
+            }
 
-        position: absolute;
-        bottom: 2rem;
-        right: 2rem;
-      }
+            .arrow img {
+                width: 30px;
+                height: 30px;
+                transition: all 150ms ease-in-out;
+            }
 
-      .arrow img {
-        width: 30px;
-        height: 30px;
-        transition: all 150ms ease-in-out;
-      }
+            .arrow img:hover {
+                transform: scale(1.2);
+            }
+        </style>
+    </head>
+    <body>
+        <!--?========== PRELOADER ===========?-->
 
-      .arrow img:hover {
-        transform: scale(1.2);
-      }
-    </style>
-  </head>
-  <body>
-    <!--?========== PRELOADER ===========?-->
+        <div class="preloader" data-preloader>
+            <div class="preloader-circle"></div>
+        </div>
 
-    <div class="preloader" data-preloader>
-      <div class="preloader-circle"></div>
-    </div>
+        <!--?========== HEADER ===========?-->
 
-    <!--?========== HEADER ===========?-->
-
-    <header class="header" data-header>
-      <div class="container">
-        <a href="./index.html" class="logo">
-          <img
-            src="./assets/images/logo-alpha97.png"
-            width="151"
-            height="28"
-            alt="Alpha97 home"
-          />
-        </a>
-
-        <nav class="navbar" data-navbar>
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <a href="./index.html" class="label-lg navbar-link has-after"
-                >Home</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="#" class="label-lg navbar-link has-after active"
-                >Services</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="./portfolio.html" class="label-lg navbar-link has-after"
-                >Portfolio</a
-              >
-            </li>
-
-            <li class="navbar-item">
-              <a href="./contact.html" class="label-lg navbar-link has-after"
-                >Contact</a
-              >
-            </li>
-          </ul>
-        </nav>
-
-        <a href="./contact.html" class="btn btn-primary">Contact Now</a>
-
-        <button
-          class="nav-open-btn nav-toggle-btn"
-          aria-label="menu"
-          data-nav-toggler
-        >
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-      </div>
-    </header>
-
-    <main>
-      <article>
-        <!--?========== SERVICE ===========?-->
-
-        <section
-          class="section service has-bg-image"
-          aria-labelledby="service-label"
-          style="background-image: url(./assets/images/service-bg.png)"
-        >
-          <div class="container">
-            <h2
-              class="section-title headline-md text-center"
-              id="service-label"
-            >
-              My Certifications
-            </h2>
-
-            <ul class="service-list">
-              <li class="card-container">
-                <div
-                  class="card card-lg"
-                  style="background-color: hsl(177, 39%, 72%)"
-                >
-                  <a
-                    href="https://www.freecodecamp.org/certification/Farhandwi/back-end-development-and-apis"
-                    target="_blank"
-                    class="arrow"
-                    rel="noopener noreferrer"
-                  >
-                    <img class="" src="./assets/images/arrow.png" alt="" />
-                  </a>
-                  <div class="card-media">
+        <header class="header" data-header>
+            <div class="container">
+                <a href="./home.html" class="logo">
                     <img
-                      style="
-                        width: 100px;
-                        height: 103px;
-                        padding-right: 4px;
-                        padding-left: -3px;
-                        padding-bottom: 7px;
-                      "
-                      src="./assets/images/fcc.png"
-                      alt=""
+                        src="./assets/images/logo-fdh.png"
+                        width="151"
+                        height="28"
+                        alt="FDH home"
                     />
-                  </div>
+                </a>
 
-                  <div>
-                    <h3 class="card-title title-md">freeCodeCamp</h3>
+                <nav class="navbar" data-navbar>
+                    <ul class="navbar-list">
+                        <li class="navbar-item">
+                            <a
+                                href="./home.html"
+                                class="label-lg navbar-link has-after"
+                                >Home</a
+                            >
+                        </li>
 
-                    <p class="body-md">Back End Development and APIs</p>
-                  </div>
-                </div>
-              </li>
+                        <li class="navbar-item">
+                            <a
+                                href="./about.html"
+                                class="label-lg navbar-link has-after"
+                                >About</a
+                            >
+                        </li>
 
-              <li class="card-container">
-                <div
-                  class="card card-md"
-                  style="background-color: hsl(41, 99%, 64%)"
+                        <li class="navbar-item">
+                            <a
+                                href="./certification.html"
+                                class="label-lg navbar-link has-after active"
+                                >Certifications</a
+                            >
+                        </li>
+
+                        <li class="navbar-item">
+                            <a
+                                href="./contact.html"
+                                class="label-lg navbar-link has-after"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="./contact.html" class="btn btn-primary">Contact Now</a>
+
+                <button
+                    class="nav-open-btn nav-toggle-btn"
+                    aria-label="menu"
+                    data-nav-toggler
                 >
-                  <div class="card-media">
-                    <ion-icon
-                      name="laptop-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </div>
+                    <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+                </button>
+            </div>
+        </header>
 
-                  <div>
-                    <h3 class="card-title title-sm">Development</h3>
+        <main>
+            <article>
+                <!--?========== Certification ===========?-->
 
-                    <p class="body-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </li>
-
-              <li class="card-container">
-                <div
-                  class="card card-md"
-                  style="background-color: hsl(19, 97%, 85%)"
+                <section
+                    class="section service has-bg-image"
+                    aria-labelledby="service-label"
+                    style="
+                        background-image: url(./assets/images/service-bg.png);
+                    "
                 >
-                  <div class="card-media">
-                    <ion-icon
-                      name="stats-chart-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </div>
+                    <div class="container">
+                        <h2
+                            class="section-title headline-md text-center"
+                            id="service-label"
+                        >
+                            My Certifications
+                        </h2>
 
-                  <div>
-                    <h3 class="card-title title-sm">SEO Marketing</h3>
+                        <ul class="service-list">
+                            <!-- freeCodeCamp - Back End Development and APIs -->
+                            <li class="card-container">
+                                <div
+                                    class="card card-lg"
+                                    style="background-color: hsl(177, 39%, 72%)"
+                                >
+                                    <div class="card-media">
+                                        <img
+                                            style="
+                                                width: 101px;
+                                                height: 104px;
+                                                padding-right: 4.3px;
+                                                padding-left: -3px;
+                                                padding-bottom: 7.5px;
+                                            "
+                                            src="./assets/images/fcc.png"
+                                            alt=""
+                                        />
+                                    </div>
 
-                    <p class="body-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                                    <div>
+                                        <h3 class="card-title title-lg">
+                                            freeCodeCamp
+                                        </h3>
 
-              <li class="card-container">
-                <div
-                  class="card card-md"
-                  style="background-color: hsl(221, 100%, 79%)"
-                >
-                  <div class="card-media">
-                    <ion-icon
-                      name="shapes-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </div>
+                                        <p class="body-lg">
+                                            Back End Development and APIs
+                                        </p>
+                                    </div>
+                                    <a
+                                        href="https://www.freecodecamp.org/certification/Farhandwi/back-end-development-and-apis"
+                                        target="_blank"
+                                        class="arrow"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            class=""
+                                            src="./assets/images/arrow.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </li>
 
-                  <div>
-                    <h3 class="card-title title-sm">Web Design</h3>
+                            <!-- Dicoding - AWS Cloud Beginner -->
+                            <li class="card-container">
+                                <div
+                                    class="card card-lg"
+                                    style="background-color: hsl(41, 99%, 64%)"
+                                >
+                                    <div class="card-media">
+                                        <img
+                                            style="
+                                                width: 101px;
+                                                height: 104px;
+                                                padding-right: 4.3px;
+                                                padding-left: -3px;
+                                                padding-bottom: 7.5px;
+                                            "
+                                            src="./assets/images/dicoding.png"
+                                            alt=""
+                                        />
+                                    </div>
 
-                    <p class="body-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                                    <div>
+                                        <h3 class="card-title title-lg">
+                                            Dicoding
+                                        </h3>
 
-              <li class="card-container">
-                <div
-                  class="card card-md"
-                  style="background-color: hsl(76, 39%, 72%)"
-                >
-                  <div class="card-media">
-                    <ion-icon
-                      name="code-slash-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </div>
+                                        <p class="body-lg">AWS Cloud Basic</p>
+                                    </div>
+                                    <a
+                                        href="https://www.dicoding.com/certificates/QLZ9R905EP5D"
+                                        target="_blank"
+                                        class="arrow"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            class=""
+                                            src="./assets/images/arrow.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </li>
 
-                  <div>
-                    <h3 class="card-title title-sm">Development</h3>
+                            <!-- Dicoding - Back-End Beginners -->
+                            <li class="card-container">
+                                <div
+                                    class="card card-lg"
+                                    style="background-color: hsl(199, 85%, 79%)"
+                                >
+                                    <div class="card-media">
+                                        <img
+                                            style="
+                                                width: 101px;
+                                                height: 104px;
+                                                padding-right: 4.3px;
+                                                padding-left: -3px;
+                                                padding-bottom: 7.5px;
+                                            "
+                                            src="./assets/images/dicoding.png"
+                                            alt=""
+                                        />
+                                    </div>
 
-                    <p class="body-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </li>
+                                    <div>
+                                        <h3 class="card-title title-lg">
+                                            Dicoding
+                                        </h3>
 
-              <li class="card-container">
-                <div
-                  class="card card-md"
-                  style="background-color: hsl(245, 100%, 90%)"
-                >
-                  <div class="card-media">
-                    <ion-icon
-                      name="globe-outline"
-                      aria-hidden="true"
-                    ></ion-icon>
-                  </div>
+                                        <p class="body-lg">
+                                            Back-End Beginners
+                                        </p>
+                                    </div>
+                                    <a
+                                        href="https://www.dicoding.com/certificates/1RXY02079ZVM"
+                                        target="_blank"
+                                        class="arrow"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            class=""
+                                            src="./assets/images/arrow.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </li>
 
-                  <div>
-                    <h3 class="card-title title-sm">SEO Marketing</h3>
+                            <!-- Oracle - Database Design -->
+                            <li class="card-container">
+                                <div
+                                    class="card card-lg"
+                                    style="background-color: hsl(0, 91%, 79%)"
+                                >
+                                    <div class="card-media">
+                                        <img
+                                            style="
+                                                width: 101px;
+                                                height: 104px;
+                                                padding-right: 4.3px;
+                                                padding-left: -3px;
+                                                padding-bottom: 7.5px;
+                                            "
+                                            src="./assets/images/oracle.png"
+                                            alt=""
+                                        />
+                                    </div>
 
-                    <p class="body-sm">
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </section>
-      </article>
-    </main>
+                                    <div>
+                                        <h3 class="card-title title-lg">
+                                            Oracle
+                                        </h3>
 
-    <!--?========== FOOTER ===========?-->
+                                        <p class="body-lg">Database Design</p>
+                                    </div>
+                                    <a
+                                        href="#"
+                                        target="_blank"
+                                        class="arrow"
+                                        rel="noopener noreferrer"
+                                    >
+                                        <img
+                                            class=""
+                                            src="./assets/images/arrow.png"
+                                            alt=""
+                                        />
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </article>
+        </main>
 
-    <footer class="footer">
-      <div class="container">
-        <ul class="social-list">
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
+        <!--?========== FOOTER ===========?-->
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
+        <footer class="footer">
+            <div class="container">
+                <ul class="social-list">
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://instagram.com/farhandwihartanto"
+                            class="social-link"
+                        >
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://api.whatsapp.com/send?phone=6282159549318"
+                            class="social-link"
+                        >
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://github.com/farhandh"
+                            class="social-link"
+                        >
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
 
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-pinterest"></ion-icon>
-            </a>
-          </li>
-        </ul>
+                    <li>
+                        <a
+                            target="_blank"
+                            href="https://www.linkedin.com/in/farhan-dwi-hartanto-8074ba292/"
+                            class="social-link"
+                        >
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
 
-        <p class="text-center">&copy; 2022 copyright all right reserved</p>
-      </div>
-    </footer>
+                <p class="text-center">
+                    &copy; 2023 copyright all right reserved
+                </p>
+            </div>
+        </footer>
 
-    <!--?========== CUSTOM JS ===========?-->
+        <!--?========== CUSTOM JS ===========?-->
 
-    <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/script.js"></script>
 
-    <!--?========== IONICON ===========?-->
+        <!--?========== IONICON ===========?-->
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
 </html>
