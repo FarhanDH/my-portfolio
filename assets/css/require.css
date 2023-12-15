@@ -422,6 +422,13 @@ body.loaded {
 
 /* *=========== RESPONSIVE FOR LARGE THAN 575PX SCREEN ===========* */
 
+@media (min-width: 392px) {
+    .body-lg {
+        font-size: var(--fs-18);
+    }
+}
+/* *=========== RESPONSIVE FOR LARGE THAN 575PX SCREEN ===========* */
+
 @media (min-width: 575px) {
     .title-lg {
         --fs-27: 3.5rem;
